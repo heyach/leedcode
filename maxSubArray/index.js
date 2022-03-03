@@ -1,4 +1,5 @@
 
+var maxSubArray = function(nums) {
     if(!nums.length) {
         return
     }
@@ -12,3 +13,4 @@
         console.log(max_end_here, max_now)
     }
     return max_now
+};
